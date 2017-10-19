@@ -1,0 +1,521 @@
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*==================== Header =====================*/
+
+.header {
+    background: url('images/header.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: table;
+}
+
+.header .text-header {
+    font-family: 'Lato', sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.header .text-header button {
+    text-transform: uppercase;
+    border-color: #fff;
+    color: #fff;
+}
+
+.header .text-header button:hover {
+    background-color: #00ffcd;
+}
+
+.header .text-header h3 {
+    font-size: 16px;
+}
+
+.header .text-header h1 {
+    font-size: 60px;
+}
+
+.header .text-header h1 span {
+    color: #00ffcd;
+}
+
+
+/*==================== Menu =====================*/
+
+.menu ul.nav.navbar-nav.float-right {
+    float: right;
+    height: 100%;
+}
+
+.menu ul.nav.navbar-nav.float-right li {
+    padding: 0px 10px;
+    /* height: 100%; */
+}
+
+.menu ul.nav.navbar-nav.float-right li.nav-item.active a {
+    color: #1abc9c;
+}
+
+.menu ul.nav.navbar-nav.float-right li:hover {
+    background-color: #1abc9c;
+}
+
+.menu ul.nav.navbar-nav.float-right li:hover a {
+    color: #fff !important;
+}
+
+.menu ul.nav.navbar-nav.float-right li a {
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+li.nav-item.active a {
+    color: #1abc9c;
+}
+
+.menu ul.nav.navbar-nav.float-right ul {
+    height: 100%;
+}
+
+ul.nav.navbar-nav.float-right li a {
+    display: inline-block;
+}
+
+nav.navbar.navbar-light.bg-faded.menu {
+    height: 90px;
+    padding: 0px;
+    line-height: 90px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.21);
+}
+
+nav.navbar.navbar-light.bg-faded.menu {}
+
+div#exCollapsingNavbar2 {
+    height: 100%;
+}
+
+@media (min-width: 993px)and (max-width: 1200px) {
+    .menu ul.nav.navbar-nav.float-right li {
+        padding: 0 7px
+    }
+}
+
+@media (max-width: 576px) {
+
+    nav.navbar.navbar-light.bg-faded.menu {
+        line-height: 35px;
+        height: auto;
+    }
+
+    ul.nav.navbar-nav.float-right {
+        width: 100%;
+    }
+
+    ul.nav.navbar-nav.float-right li {
+        /* height: 35% !important; */
+    }
+
+    div#exCollapsingNavbar2 {
+        text-align: center;
+    }
+}
+
+/*==================== Product =====================*/
+
+.product .best-design .card-deck-wrapper {
+    margin-top: 45px;
+}
+
+.product .best-design p {
+    text-align: left;
+}
+
+.product {
+    text-align: center;
+    margin-top: 90px;
+}
+.product p{
+    font-family: 'Lato', sans-serif;
+}
+
+.product .best-design h2 {
+    color: #2c3e50;
+    /* text-align: center; */
+    /* padding-right: 170px; */
+    font-size: 30px;
+}
+
+.product .best-design h3 {
+    /* text-align: center; */
+    color: #7a828c;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.product .best-design p {
+    color: #e8ecee;
+    font-size: 14px;
+}
+
+
+.product .best-design .card {
+    border: none;
+}
+
+
+.special-product h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.special-product #product .carousel-item{
+    height: 500px;
+}
+
+.special-product #product .carousel-item img {
+    height: 500px;
+    width: 100%;
+    /* block-size: initial; */
+}
+
+.carousel-item.active {}
+
+
+#product {
+    margin-top: 45px;
+}
+
+.work-01 .text h3,.work-01 .text h4,.work-01 .text p {
+    margin: 0 -15px;
+    margin-bottom: 1rem;
+}
+
+div#product {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.work-01 {
+    margin-top: 1.25rem;
+}
+
+.special-product {
+    margin-top: 100px;
+}
+
+.text h3 {
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.text h4 {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.text p {
+    font-size: 14px;
+    color: #e8ecee;
+}
+
+.product .card {
+    border: none;
+}
+
+.product .card-block {
+    padding: 1.25rem 0;
+}
+
+.text p {
+    text-align: left;
+}
+
+.text .row .card img {
+    width: 100%;
+    height: 280px;
+}
+
+.text .row .card .card-img-hover img {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.text .row .card .card-img-hover {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    transition: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.work-02 .text .row .card:hover .card-img-hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+span.icon-next {
+    right: 10% !important;
+    background-color: #55575F;
+    color: #fff !important;
+}
+
+span.icon-next:hover {
+    background-color: #1abc9c;
+}
+
+span.icon-prev:hover {
+    background-color: #1abc9c;
+}
+
+span.icon-prev {
+    left: 10% !important;
+    background-color: #555761;
+    color: #fff !important;
+}
+
+/*==================== Info =====================*/
+
+
+.core-feature img {
+    margin-bottom: 45px;
+}
+
+.core-feature {
+    margin-top: 100px;
+}
+
+.core-feature {
+    color: #222533;
+    text-align: center;
+}
+
+.core-feature h2 {
+    font-size: 30px;
+}
+
+.core-feature h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+
+.core-feature h5 {
+    font-size: 14px;
+    text-align: right;
+}
+
+.core-feature h6 {
+    font-size: 12px;
+    text-align: right;
+}
+
+.core-feature p {
+    text-align: right;
+    font-size: 14px;
+    color: #a7b6c0;
+}
+
+.core-feature .right p,.core-feature .right h5,.core-feature .right h6 {
+    text-align: left;
+}
+
+.info .info-text h4 {
+    font-size: 14px;
+    height: 14px;
+    text-align: center;
+    color: #f1f1f2;
+}
+
+.info .info-text h5 {
+    font-size: 12px;
+    height: 14px;
+    text-align: center;
+    color: #f1f1f2;
+}
+
+.info .info-text {
+    background-color: #88898f;
+    padding: 200px 0;
+}
+
+.info-text p {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    margin: 0px 200px;
+    margin-bottom: 50px;
+}
+
+
+/*==================== Blog =====================*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.feature-post .tool img {
+    width: 44px;
+    height: 36px;
+    float: left;
+}
+
+.feature-post {
+    height: 633px;
+}
+
+.feature-post img {
+    width: 270px;
+    height: 210px;
+    background: url('images/line.png') top repeat-y;
+}
+
+.feature-post h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.feature-post h5 {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.feature-post .tool h5 {
+    float: right;
+}
+
+.feature-post h6 {
+    font-size: 12px;
+    color: #2c3e50;
+}
+
+.feature-post p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #a1b1bc;
+}
+
+.special .icon {
+    padding-top: 100px;
+}
+
+.special h6 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 7px 0;
+}
+
+.special h3 {
+    font-size: 30px;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.special a img {Ã†Â°
+    i:;
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+}
+
+.special {
+    height: 545px;
+    background-color: #1a1c27;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.blog .card-block {
+    padding-left: 0px;
+}
+
+.blog .card {
+    background-color: #1a1c27;
+}
+
+.blog h4.card-title {
+    font-size: 14px;
+    color: #fff;
+}
+
+.blog .card-block h5 {
+    font-size: 12px;
+    color: #f1f1f1;
+}
+
+.blog .card-block p {
+    font-size: 14px;
+    color: #444b56;
+}
+
+.blog .card-deck-wrapper {
+    margin: 0 15px;
+}
+
+.blog {
+    background-color: #1a1c27;
+    padding: 100px 0;
+}
+
+.blog .text {
+    text-align: center;
+    /* padding-top: 100px; */
+}
+
+.blog .text h3 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+
+.blog .text h4 {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+.blog .text img {
+    height: 37px;
+    margin-bottom: 50px;
+}
+
+.blog .card-img-top {
+    width: 100%;
+    border: none;
+    height: 264px;
+}
+
+/*Mobile*/
+@media (max-width: 576px){
+    *{}
+
+button.navbar-toggler-right.navbar-toggler.hidden-sm-up {
+}
+
+.info .info-text p {
+    font-size: 14px;
+    margin: 0px;
+}
+}
