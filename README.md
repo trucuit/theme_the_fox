@@ -1,14 +1,16 @@
-# Theme The Fox
+# TheFox Theme Clone
 
-Bài tập cắt giao diện web HTML/CSS/JS từ design template "The Fox".
+Bài tập cắt giao diện web HTML/CSS/JS từ design template "The Fox" — magazine style.
 
 ## 🌐 Demo
 
-**Live:** [https://trucuit.github.io/theme_the_fox/](https://trucuit.github.io/theme_the_fox/)
+**Live:** [https://trucuit.github.io/thefox-theme-clone/](https://trucuit.github.io/thefox-theme-clone/)
+
+![Screenshot](screenshots/demo.png)
 
 ## 📋 Tính năng
 
-- Responsive design (Bootstrap)
+- Responsive design (Bootstrap 4)
 - Carousel banner
 - Blog cards layout
 - Featured posts section
@@ -25,7 +27,7 @@ Bài tập cắt giao diện web HTML/CSS/JS từ design template "The Fox".
 ## 📁 Cấu trúc
 
 ```
-theme_the_fox/
+thefox-theme-clone/
 ├── index.html     # Trang chính (static)
 ├── 1.css          # Stylesheet
 ├── 1.js           # JavaScript
